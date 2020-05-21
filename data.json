@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "updated",
+      "desc": "desc for project1",
+      "image": [
+        "fake image url"
+      ],
+      "stack": [
+        "react",
+        "gatsby"
+      ],
+      "code": "fake code url",
+      "project": "fake demo url"
+    },
+    {
+      "id": "2",
+      "title": "project2",
+      "desc": "desc for project2",
+      "image": [
+        "fake image url"
+      ],
+      "stack": [
+        "react",
+        "gatsby"
+      ],
+      "code": "fake code url",
+      "project": "fake demo url"
+    },
+    {
+      "id": "3",
+      "title": "project3",
+      "desc": "desc for project3",
+      "image": [
+        "fake image url"
+      ],
+      "stack": [
+        "react",
+        "gatsby"
+      ],
+      "code": "fake code url",
+      "project": "fake demo url"
+    }
+  ]
+}
