@@ -5,12 +5,14 @@
   "main": "server.js",
   "scripts": {
     "dev:server": "nodemon server.js",
-    "json:server": "json-server --watch data.json"
+    "json:server": "json-server --watch data.json",
+    "server": "concurrently \"npm run dev:server\" \"npm run json:server\""
   },
   "author": "Keshavaa Shaiskandan",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^15.0.0",

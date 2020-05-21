@@ -2,45 +2,54 @@
   "projects": [
     {
       "id": "1",
-      "title": "updated",
-      "desc": "desc for project1",
+      "title": "Sample Title 1",
+      "desc": "Description 1",
       "image": [
-        "fake image url"
+        "Project URL 1",
+        "Project URL 2",
+        "Project URL 3"
       ],
       "stack": [
-        "react",
-        "gatsby"
+        "React",
+        "Technology 2",
+        "Technology 3"
       ],
-      "code": "fake code url",
-      "project": "fake demo url"
+      "code": "Code URL",
+      "project": "Project URL"
     },
     {
       "id": "2",
-      "title": "project2",
-      "desc": "desc for project2",
+      "title": "Sample Title 2",
+      "desc": "Description 2",
       "image": [
-        "fake image url"
+        "Project URL 1",
+        "Project URL 2",
+        "Project URL 3"
       ],
       "stack": [
-        "react",
-        "gatsby"
+        "Technology 1",
+        "Technology 2",
+        "Technology 3"
       ],
-      "code": "fake code url",
-      "project": "fake demo url"
+      "code": "Code URL",
+      "project": "Project URL"
     },
     {
       "id": "3",
-      "title": "project3",
-      "desc": "desc for project3",
+      "title": "Sample Title 3",
+      "desc": "Description 3",
       "image": [
-        "fake image url"
+        "Project URL 1",
+        "Project URL 2",
+        "Project URL 3"
       ],
       "stack": [
-        "react",
-        "gatsby"
+        "Technology 1",
+        "Technology 2",
+        "Technology 3"
       ],
-      "code": "fake code url",
-      "project": "fake demo url"
+      "code": "Code URL",
+      "project": "Project URL"
     }
   ]
 }
