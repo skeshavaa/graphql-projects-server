@@ -1,4 +1,5 @@
 const axios = require('axios');
+
 const {
     GraphQLObjectType,
     GraphQLString,
@@ -8,6 +9,8 @@ const {
     GraphQLNonNull
 } = require('graphql');
 
+// Project Data Type, you can modify this for your needs, 
+// or create a new file to add another schema as well
 const ProjectType = new GraphQLObjectType({
     name: 'Project',
     fields: () => ({
@@ -21,6 +24,8 @@ const ProjectType = new GraphQLObjectType({
     })
 })
 
+// You can query projects by their id or
+// you can just query all the projects together
 const RootQuery = new GraphQLObjectType({
     name: 'RootQueryType',
     fields: {
@@ -44,21 +49,11 @@ const RootQuery = new GraphQLObjectType({
                     .then(res => res.data)
             }
         },
-
-        //Query project by Tech Stack
-        projectByTech: {
-            type: ProjectType,
-            args: {
-                title: {type: GraphQLString}
-            },
-            resolve(parentValue, args){
-                return axios.get('http://localhost:3000/projects/' + args.title)
-                    .then(res => res.data)
-            }
-        }
     }
 })
 
+// Mutations to add, delete or update
+// an entry in the json server
 const mutation = new GraphQLObjectType({
     name: 'Mutation',
     fields: {
