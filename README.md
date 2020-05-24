@@ -26,7 +26,7 @@ Feel free to clone the repo! :)
 
 ![JSON server](https://i.imgur.com/iWdLMOI.jpg)
 
-### Graphql Server
+### Graphql Query Tool
 
 ![Graphql Server](https://i.imgur.com/RfEm3S7.jpg)
 
